@@ -1,0 +1,22 @@
+{
+  "name": "electron-app",
+  "version": "1.0.0",
+  "description": "this is a simple electron app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmedjw/Electron-app.git"
+  },
+  "keywords": [
+    "electron"
+  ],
+  "author": "Ahmed jwifel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmedjw/Electron-app/issues"
+  },
+  "homepage": "https://github.com/ahmedjw/Electron-app#readme"
+}
