@@ -4,6 +4,7 @@
   "description": "this is a simple electron app",
   "main": "index.js",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/ahmedjw/Electron-app/issues"
   },
-  "homepage": "https://github.com/ahmedjw/Electron-app#readme"
+  "homepage": "https://github.com/ahmedjw/Electron-app#readme",
+  "devDependencies": {
+    "electron": "^37.2.3"
+  }
 }
