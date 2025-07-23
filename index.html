@@ -17,6 +17,15 @@
     <h1>Hello from Electron renderer!</h1>
     <p>👋</p>
     <p id="info"></p>
-    <script src="renderer.js"></script>
+    <form id="messageForm">
+      <input
+        type="text"
+        id="messageInput"
+        placeholder="Type your message here..."
+      />
+      <button type="submit">Send</button>
+    </form>
+    <p id="message"></p>
   </body>
+  <script src="renderer.js"></script>
 </html>
